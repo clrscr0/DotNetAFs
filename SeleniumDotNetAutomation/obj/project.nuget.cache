@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QUeedEGNi8qwdHz4SduYEelUp8ePwbDLR30olBafjsF4mW+KhzsyGIU07ziY+27vg1Ye1S8PzwjeTbMlhbgURQ==",
+  "dgSpecHash": "Ury5LoyTH18=",
   "success": true,
-  "projectFilePath": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\SeleniumDotNetAutomation\\SeleniumDotNetAutomation.csproj",
+  "projectFilePath": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\SeleniumDotNetAutomation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\OrtiagaClarissa\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\OrtiagaClarissa\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

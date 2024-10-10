@@ -1040,11 +1040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\SeleniumDotNetAutomation\\SeleniumDotNetAutomation.csproj",
+      "projectUniqueName": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\SeleniumDotNetAutomation.csproj",
       "projectName": "SeleniumDotNetAutomation",
-      "projectPath": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\SeleniumDotNetAutomation\\SeleniumDotNetAutomation.csproj",
+      "projectPath": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\SeleniumDotNetAutomation.csproj",
       "packagesPath": "C:\\Users\\OrtiagaClarissa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\SeleniumDotNetAutomation\\obj\\",
+      "outputPath": "C:\\Users\\OrtiagaClarissa\\source\\portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\OrtiagaClarissa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1055,6 +1055,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1115,7 +1116,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
