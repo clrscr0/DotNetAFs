@@ -7,25 +7,26 @@ public class TimeZoneData
     public int TimeZoneId { get; set; }
 
     [JsonProperty("name")]
-    public string Name { get; set; }
+    public string? Name { get; set; }
 
     [JsonProperty("resourceId")]
     public int ResourceId { get; set; }
 
     [JsonProperty("registryId")]
-    public string RegistryId { get; set; }
+    public string? RegistryId { get; set; }
 
     [JsonProperty("modifiedDate")]
-    public string ModifiedDate { get; set; }
+    public string? ModifiedDate { get; set; }
 
     [JsonProperty("ianaName")]
-    public string IanaName { get; set; }
+    public string? IanaName { get; set; }
 
     [JsonProperty("offset")]
     public double Offset { get; set; }
 
     public TimeZoneInfo ToTimeZoneInfo()
     {
-        return TimeZoneInfo.FindSystemTimeZoneById(RegistryId);
+        string id = RegistryId != null ? RegistryId : "";
+        return TimeZoneInfo.FindSystemTimeZoneById(id);
     }
 }

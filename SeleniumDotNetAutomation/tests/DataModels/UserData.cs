@@ -121,7 +121,7 @@ public class UserData
     public TimeZoneData GetTimezone()
     {
         string currentDirectory = Directory.GetCurrentDirectory();
-        string filePath = Path.Combine(currentDirectory, "data", "timezones.json");
+        string filePath = Path.Combine(currentDirectory, "Framework", "Data", "timezones.json");
 
         string json = File.ReadAllText(filePath);
 

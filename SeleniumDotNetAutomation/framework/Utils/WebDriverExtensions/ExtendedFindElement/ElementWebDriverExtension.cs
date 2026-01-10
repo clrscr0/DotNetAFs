@@ -1,6 +1,6 @@
 using NLog;
 
-namespace SeleniumDotNetAutomation.framework.utilities.WebDriverExtensions.ExtendedFindElement
+namespace SeleniumDotNetAutomation.Framework.Utils.WebDriverExtensions.ExtendedFindElement
 {
     public class ElementWebDriverExtension
     {

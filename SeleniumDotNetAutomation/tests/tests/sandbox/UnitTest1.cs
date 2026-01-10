@@ -1,36 +1,50 @@
 using System.Globalization;
 using Microsoft.VisualBasic;
 using OpenQA.Selenium.Chrome;
-using UI.Automation.Tests.v2.PMDAM.Framework;
-
+using SeleniumDotNetAutomation.Framework.Utils;
 using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
 
-namespace SeleniumDotNetAutomation;
+namespace SeleniumDotNetAutomation.Tests.Tests.Sandbox;
 
 [TestClass]
-public class UnitTest1
+public class UnitTest1 : TestFixture
 {
+
+    [TestMethod]
+    public void MathTest()
+    {
+        Console.WriteLine(Math.Ceiling(1.1));
+    }
+
+    [TestMethod]
+    public void TestSelenium()
+    {
+        Driver.Navigate().GoToUrl("https://www.emirates.com/ae/english/");
+        Driver.Manage().Window.Maximize();
+    }
 
     [TestMethod]
     public void NetworkManagerTest()
     {
-        ChromeDriverService svc = ChromeDriverService.CreateDefaultService();
-        var driver = new ChromeDriver(svc);
-        NetworkMonitoring monitor = new NetworkMonitoring(driver);
-        monitor.Start();
-        driver.Navigate().GoToUrl("https://www.google.com");
-        monitor.Stop();
-        var allResponses = monitor.Responses;
-        Assert.IsTrue(allResponses.Count > 0, "Network request were not captured.");
-        driver.Quit();
+       ChromeDriverService svc = ChromeDriverService.CreateDefaultService();
+       var driver = new ChromeDriver(svc);
+       NetworkMonitoring monitor = new NetworkMonitoring(driver);
+       monitor.Start();
+       driver.Navigate().GoToUrl("https://www.google.com");
+       monitor.Stop();
+       var allResponses = monitor.Responses;
+       Assert.IsTrue(allResponses.Count > 0, "Network request were not captured.");
+       driver.Quit();
     }
 
     [TestMethod]
     public void DateTimeTest()
-    {       
+    {
 
-        UserData user = new UserData();
-        user.TimezoneId = 50;
+        UserData user = new()
+        {
+            TimezoneId = 50
+        };
 
         var now = DateTime.Now;
 
@@ -39,7 +53,7 @@ public class UnitTest1
         var userPreferredTzDt = now.ConvertToAnotherTimezone(user.GetTimezone().ToTimeZoneInfo());
         Console.WriteLine("User-Preferred: " + userPreferredTzDt.ToString());
         Console.WriteLine("=====Testing from String Conversion=====");
-        var fromString = DateTimeExtension.ConvertToString(userPreferredTzDt);
+        var fromString = userPreferredTzDt.ConvertToString();
         Console.WriteLine("Converted from String (Timezone Unspecified): " + fromString);
         Console.WriteLine("=====Testing from String Conversion=====");
         var dateTimeFromString = fromString.ConvertToDateTime(DateTimeFormat.Milliseconds);

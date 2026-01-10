@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 
-namespace UI.Automation.Tests.v2.PMDAM.Framework
+namespace SeleniumDotNetAutomation.Framework.Utils
 {
     public class NetworkMonitoring
     {

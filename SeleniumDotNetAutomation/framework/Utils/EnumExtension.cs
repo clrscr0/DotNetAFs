@@ -3,7 +3,7 @@ using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
 
 public static class EnumExtension
 {
-    public static string GetDescription(this Enum @enum)
+    public static string? GetDescription(this Enum @enum)
     {
         if (@enum == null)
         {
