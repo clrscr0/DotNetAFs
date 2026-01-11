@@ -1,50 +1,52 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-[TestClass]
-public class TestFixture
+namespace SeleniumDotNetAutomation.Framework
 {
-    protected IWebDriver Driver;
-    public TestContext TestContext { get; set; }
-
-    [AssemblyInitialize]
-    public static void BeforeAssembly(TestContext testContext)
+    [TestClass]
+    public class TestFixture
     {
-        Console.WriteLine("BeforeAssembly...");
-    }
+        public required IWebDriver Driver;
+        public TestContext TestContext { get; set; }
 
-    [AssemblyCleanup]
-    public static void AfterAssembly()
-    {
-        Console.WriteLine("AfterAssembly...");
-    }
+        [AssemblyInitialize]
+        public static void BeforeAssembly(TestContext testContext)
+        {
+            Console.WriteLine("BeforeAssembly...");
+        }
 
-    [ClassInitialize]
-    public static void BeforeClass(TestContext testContext)
-    {
-        Console.WriteLine("BeforeClass...");
-    }
+        [AssemblyCleanup]
+        public static void AfterAssembly()
+        {
+            Console.WriteLine("AfterAssembly...");
+        }
 
-    [ClassCleanup]
-    public static void AfterClass()
-    {
-        Console.WriteLine("AfterClass...");
-    }
+        [ClassInitialize]
+        public static void BeforeClass(TestContext testContext)
+        {
+            Console.WriteLine("BeforeClass...");
+        }
 
-    [TestInitialize]
-    public virtual void BeforeTest()
-    {
-        var options = new ChromeOptions();
-        Driver = new ChromeDriver(options);
-        Driver.Manage().Window.Maximize();
-        Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
-        //Driver.Navigate().GoToUrl("https://www.google.com");
-    }
+        [ClassCleanup]
+        public static void AfterClass()
+        {
+            Console.WriteLine("AfterClass...");
+        }
 
-    [TestCleanup]
-    public virtual void AfterTest()
-    {
-        Driver.Quit();
-        Driver.Dispose();
+        [TestInitialize]
+        public virtual void BeforeTest()
+        {
+            var options = new ChromeOptions();
+            Driver = new ChromeDriver(options);
+            Driver.Manage().Window.Maximize();
+            Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+        }
+
+        [TestCleanup]
+        public virtual void AfterTest()
+        {
+            Driver.Quit();
+            Driver.Dispose();
+        }
     }
 }

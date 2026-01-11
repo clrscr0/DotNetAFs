@@ -1,26 +1,20 @@
 using System.Globalization;
 using Microsoft.VisualBasic;
 using OpenQA.Selenium.Chrome;
+using SeleniumDotNetAutomation.Framework;
 using SeleniumDotNetAutomation.Framework.Utils;
 using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
 
 namespace SeleniumDotNetAutomation.Tests.Tests.Sandbox;
 
 [TestClass]
-public class UnitTest1 : TestFixture
+public class UnitTest1
 {
 
     [TestMethod]
     public void MathTest()
     {
         Console.WriteLine(Math.Ceiling(1.1));
-    }
-
-    [TestMethod]
-    public void TestSelenium()
-    {
-        Driver.Navigate().GoToUrl("https://www.emirates.com/ae/english/");
-        Driver.Manage().Window.Maximize();
     }
 
     [TestMethod]
@@ -33,7 +27,7 @@ public class UnitTest1 : TestFixture
        driver.Navigate().GoToUrl("https://www.google.com");
        monitor.Stop();
        var allResponses = monitor.Responses;
-       Assert.IsTrue(allResponses.Count > 0, "Network request were not captured.");
+       Assert.IsNotEmpty(allResponses, "Network request were not captured.");
        driver.Quit();
     }
 

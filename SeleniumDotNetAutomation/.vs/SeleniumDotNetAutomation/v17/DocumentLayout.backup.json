@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\tests\\datamodels\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|solutionrelative:tests\\datamodels\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\tests\\tests\\demotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|solutionrelative:tests\\tests\\demotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\tests\\tests\\sandbox\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|solutionrelative:tests\\tests\\sandbox\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\tests\\components\\searchflightcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|solutionrelative:tests\\components\\searchflightcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\framework\\utils\\seleniumextensions\\webelementextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|solutionrelative:framework\\utils\\seleniumextensions\\webelementextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\framework\\utils\\seleniumextensions\\webdriverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|solutionrelative:framework\\utils\\seleniumextensions\\webdriverextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\tests\\pages\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|solutionrelative:tests\\pages\\landingpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A9CA319-5100-4E5F-9427-18EE30191E56}|SeleniumDotNetAutomation.csproj|d:\\__source\\portfolio\\dotnetafs\\seleniumdotnetautomation\\framework\\testfixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,34 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 292,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserData.cs",
-              "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\DataModels\\UserData.cs",
-              "RelativeDocumentMoniker": "Tests\\DataModels\\UserData.cs",
-              "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\DataModels\\UserData.cs",
-              "RelativeToolTip": "Tests\\DataModels\\UserData.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAcwHsAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T22:20:47.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Tests\\Sandbox\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "Tests\\Tests\\Sandbox\\UnitTest1.cs",
-              "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Tests\\Sandbox\\UnitTest1.cs",
-              "RelativeToolTip": "Tests\\Tests\\Sandbox\\UnitTest1.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADgvy0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T22:10:13.265Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -69,14 +55,78 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "WebElementExtension.cs",
+              "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Framework\\Utils\\SeleniumExtensions\\WebElementExtension.cs",
+              "RelativeDocumentMoniker": "Framework\\Utils\\SeleniumExtensions\\WebElementExtension.cs",
+              "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Framework\\Utils\\SeleniumExtensions\\WebElementExtension.cs",
+              "RelativeToolTip": "Framework\\Utils\\SeleniumExtensions\\WebElementExtension.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:32:35.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchFlightComponent.cs",
+              "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Components\\SearchFlightComponent.cs",
+              "RelativeDocumentMoniker": "Tests\\Components\\SearchFlightComponent.cs",
+              "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Components\\SearchFlightComponent.cs",
+              "RelativeToolTip": "Tests\\Components\\SearchFlightComponent.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:03:04.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebDriverExtension.cs",
+              "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Framework\\Utils\\SeleniumExtensions\\WebDriverExtension.cs",
+              "RelativeDocumentMoniker": "Framework\\Utils\\SeleniumExtensions\\WebDriverExtension.cs",
+              "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Framework\\Utils\\SeleniumExtensions\\WebDriverExtension.cs",
+              "RelativeToolTip": "Framework\\Utils\\SeleniumExtensions\\WebDriverExtension.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T06:00:13.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TestFixture.cs",
               "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Framework\\TestFixture.cs",
               "RelativeDocumentMoniker": "Framework\\TestFixture.cs",
               "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Framework\\TestFixture.cs",
               "RelativeToolTip": "Framework\\TestFixture.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-10T22:10:17.747Z",
+              "WhenOpened": "2026-01-11T02:44:35.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LandingPage.cs",
+              "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Pages\\LandingPage.cs",
+              "RelativeDocumentMoniker": "Tests\\Pages\\LandingPage.cs",
+              "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Pages\\LandingPage.cs",
+              "RelativeToolTip": "Tests\\Pages\\LandingPage.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA0wA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T02:41:11.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DemoTest.cs",
+              "DocumentMoniker": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Tests\\DemoTest.cs",
+              "RelativeDocumentMoniker": "Tests\\Tests\\DemoTest.cs",
+              "ToolTip": "D:\\__SOURCE\\Portfolio\\DotNetAFs\\SeleniumDotNetAutomation\\Tests\\Tests\\DemoTest.cs",
+              "RelativeToolTip": "Tests\\Tests\\DemoTest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T02:39:54.892Z",
               "EditorCaption": ""
             }
           ]
